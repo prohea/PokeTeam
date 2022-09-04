@@ -11,19 +11,15 @@ body {
 
 /* Header/logo Title */
 .header {
-	padding: 50px;
-	text-align: center;
 	background: #9b1111;
-	color: rgb(23, 23, 175);
-	font-family: "Londrina Sketch", cursive;
-	font-size: 50px;
+	color: black;
+	font-family: 'Notable', sans-serif;
+	font-size: 30px;
 	border-color: black;
 	margin: 5px;
-	background-image: url("./Images/poketeamh.png");
-	background-repeat: no-repeat;
-	background-size: 50%;
-	background-position: center;
 	border-style: outset;
+	max-height: 160px;
+	text-align: center;
 }
 
 #team-h1 {
