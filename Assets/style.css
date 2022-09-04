@@ -1,0 +1,339 @@
+* {
+	box-sizing: border-box;
+	position: relative;
+}
+
+/* Style the body */
+body {
+	margin: 0;
+	background-color: black;
+}
+
+/* Header/logo Title */
+.header {
+	padding: 50px;
+	text-align: center;
+	background: #9b1111;
+	color: rgb(23, 23, 175);
+	font-family: "Londrina Sketch", cursive;
+	font-size: 50px;
+	border-color: black;
+	margin: 5px;
+	background-image: url("./images/poketeam.png");
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: center;
+	border-style: outset;
+}
+
+#team-h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-size: contain;
+	font-size: 35px;
+	margin-top: 210px;
+	margin-right: 100px;
+	margin-bottom: 22px;
+}
+
+.h2 {
+	font-size: large;
+	border-radius: 10px;
+	border-style: inset;
+	border-color: black;
+}
+
+/* Column container */
+.row {
+	font-family: "Orbitron", sans-serif;
+	font-size: medium;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.left-side {
+	color: black;
+	flex: 40%;
+	padding: 25px;
+	width: 1000px;
+	height: 1000px;
+	background-image: url(./Images/left.png);
+	background-repeat: none;
+	background-size: 100em;
+	margin-left: 156px;
+	margin-right: 0px;
+}
+
+.pokemon {
+	margin: 7px;
+	background-color: #c61717;
+	border-color: #f4baba;
+	border-style: solid;
+	font-size: 25px;
+	line-height: 22px;
+	width: 540px;
+	margin-left: 20px;
+}
+
+.my-team {
+	margin-left: 65px;
+	width: 585px;
+	height: 230px;
+	margin-top: 20px;
+}
+
+#p1 {
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+#p6 {
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.remove {
+	font-size: 15px;
+	color: black;
+	background-color: blue;
+	border-radius: 10px;
+	border-color: blue;
+	border-style: outset;
+	padding: 22px;
+	width: 100px;
+	border-width: 3px;
+	max-width: 100px;
+	text-align: center;
+}
+
+.btns-1,
+.btns-2 {
+	width: 505px;
+	display: flex;
+	margin-top: 22px;
+	margin-left: 105px;
+	justify-content: space-between;
+	height: 70px;
+	margin-right: 0px;
+}
+.btns-2 {
+	margin-top: 2px;
+}
+
+.remove:hover {
+	color: white;
+	border-color: white;
+	cursor: pointer;
+	border-style: inset;
+	background-color: rgb(86, 23, 105);
+}
+
+.right-side {
+	color: black;
+	flex: 40%;
+	padding: 25px;
+	width: 1000px;
+	height: 1000px;
+	background-image: url(./Images/rightt.png);
+	background-repeat: no-repeat;
+	background-size: 100em;
+	background-position-x: right;
+	margin-right: 160px;
+	margin-left: 0px;
+}
+
+#type-h2 {
+	color: white;
+	margin-left: 130px;
+	font-size: 35px;
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+
+#pokemon-name {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+	margin-top: 210px;
+	margin-right: 100px;
+	margin-bottom: 30px;
+}
+
+#addBTN {
+	margin-top: 162px;
+	font-size: 30px;
+	margin-left: 325px;
+	color: black;
+	background-color: white;
+	border-radius: 10px;
+	border-width: 3px;
+	border-style: solid;
+	padding: 15px;
+	border-style: outset;
+	width: 150px;
+	text-align: center;
+}
+
+#addBTN:hover {
+	color: white;
+	background-color: #941e00;
+	cursor: pointer;
+	border-style: inset;
+}
+
+.type-and-ability {
+	width: 610px;
+	margin-left: 145px;
+	background-color: #bf95bb;
+	width: 300px;
+}
+
+.ability {
+	color: rgb(250, 236, 248);
+	margin: 3px;
+	font-size: 20px;
+	line-height: 16px;
+	border-color: #8a6d87;
+	border-style: solid;
+	width: 300px;
+	border-radius: 3px;
+	background-color: #131012;
+}
+
+.topnav {
+	font-family: "Orbitron", sans-serif;
+	font-size: medium;
+	overflow: hidden;
+	background-color: #c61717;
+	border-radius: 10px;
+	width: 420px;
+	margin-top: 20px;
+	margin-left: 110px;
+	border-style: ridge;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: rgb(242, 229, 58);
+	text-align: center;
+	padding: 8px 10px;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.topnav a.active {
+	background-color: #309bdd;
+	color: white;
+}
+
+.topnav .search-box {
+	float: right;
+	display: inline;
+}
+
+.topnav input[type="text"] {
+	padding: 4px;
+	margin-top: 4px;
+	font-size: 12px;
+	border: none;
+}
+
+.topnav .search-box button {
+	color: white;
+	float: right;
+	padding: 4px;
+	margin-top: 4px;
+	margin-right: 12px;
+	margin-bottom: 0px;
+	background: #0f9e16;
+	font-size: 12px;
+	border: none;
+	cursor: pointer;
+	font-family: "Orbitron", sans-serif;
+}
+
+.topnav .search-box button:hover {
+	background: #ccc;
+}
+
+#gif {
+	margin: 40px;
+	max-width: 200px;
+	min-width: 200px;
+	max-height: 200px;
+	min-height: 200px;
+	/*padding-left: 10%;*/
+	margin-left: 35%;
+	margin-bottom: 0%;
+}
+
+/* Footer */
+.footer {
+	font-family: "Orbitron", sans-serif;
+	padding: 20px;
+	text-align: center;
+	background: #9b1111;
+	border-style: outset;
+	background-image: url("./images/pokefooter.gif");
+	background-size: contain;
+	margin: 30px;
+}
+
+.ty {
+	font-size: 40px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+	.row,
+	.topnav {
+		flex-direction: column;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 5px;
+		flex-wrap: wrap;
+		width: 50%;
+	}
+
+	.right-side {
+		float: right;
+		margin-left: 400px;
+		align-items: stretch;
+	}
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.row,
+	.topnav a {
+		flex-direction: column;
+		float: none;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 5px;
+		flex-wrap: wrap;
+	}
+	.row {
+		width: 0%;
+	}
+
+	.right-side {
+		float: right;
+		margin-left: 400px;
+		align-items: stretch;
+	}
+}
