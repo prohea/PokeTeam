@@ -18,8 +18,12 @@ body {
 	border-color: black;
 	margin: 5px;
 	border-style: outset;
-	max-height: 160px;
 	text-align: center;
+	background-image: url("./Images/poketeam.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 150px;
 }
 
 #team-h1 {
