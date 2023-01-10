@@ -24,6 +24,7 @@ Pokemon API, Giphy API
 # Technologies Used
 HTML, CSS, JavaScript
 # Deployed Project
+https://github.com/prohea/PokeTeam
 
 # Screenshot
 ![PokeTeam]()
